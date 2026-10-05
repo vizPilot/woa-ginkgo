@@ -51,13 +51,13 @@ Use TWRP now to back up your Modem and EFS partition (as well as anything else i
 
 ##### Extending the partition limit
 ```cmd
-adb shell sgdisk --resize-table=128 /dev/block/sda
+adb shell sgdisk --resize-table=128 /dev/block/mmcblk0
 ```
 
 ##### Preparing for partitioning
 > Download the parted file and move it in the platform-tools folder, then run
 ```cmd
-adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/sda
+adb push parted /cache/ && adb shell "chmod 755 /cache/parted" && adb shell /cache/parted /dev/block/mmcblk0
 ```
 
 ##### Printing the current table partition:
