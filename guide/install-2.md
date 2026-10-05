@@ -1,17 +1,17 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/raphael.png" width="350" alt="Windows 11 Running On raphael">
+<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/raphael.png" width="350" alt="Windows 11 Running On ginkgo">
 
 
-# Running Windows on the  Mi 9T Pro / Redmi K20 Pro 
+# Running Windows on the Xiaomi Redmi Note 8/8T
 
 ## Installing Windows
 
 ### Prerequisites
 
 - [Windows on ARM image](https://worproject.com/esd)
-- [UEFI image](https://github.com/woa-raphael/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael_NOSB.img)
-- [Drivers](https://github.com/woa-raphael/raphael-drivers/releases/tag/1.1)
-- [Msc script](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/msc.sh)
-- [TWRP](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img) (should already be installed)
+- [UEFI image](https://github.com/vizPilot/woa-ginkgo/releases/download/ginkgo-uefi/Mu-ginkgo.img)
+- [Drivers](https://github.com/woa-ginkllow/ginkgo-woa/releases/tag/1.0) (private for now)
+- [Msc script](https://github.com/vizPilot/woa-ginkgo/releases/download/ginkgo-partitioning/msc.sh)
+- [TWRP](https://github.com/vizPilot/woa-ginkgo/releases/download/ginkgo-partitioning/twrp.img) (should already be installed)
 
 ##### Boot to TWRP
 > If rebooting on the last page has replaced your recovery back to stock, flash it again in fastboot with:
@@ -50,7 +50,7 @@ sel dis $
 ```cmd
 lis par
 ```
-> This will print out all of the partitions in the selected disk. Check if they match up with your device and replace "$" with the number of the ESP partition (usually 32)
+> This will print out all of the partitions in the selected disk. Check if they match up with your device and replace "$" with the number of the ESP partition (usually 88)
 ```cmd
 sel par $
 ```
@@ -66,7 +66,7 @@ assign letter y
 ```
 
 ##### Selecting the Windows partitiom
-> Replace "$" in the command below with the number of the Windows partition, usually 33. If you don't know the number, run "lis par" again
+> Replace "$" in the command below with the number of the Windows partition, usually 89. If you don't know the number, run "lis par" again
 ```cmd
 sel par $
 ```
@@ -96,7 +96,7 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 
 
 ```cmd
-DriverUpdater.exe -p X: -d .\definitions\Desktop\ARM64\Internal\raphael.xml -r .
+DriverUpdater.exe -p X: -d .\definitions\Desktop\ARM64\Internal\ginkgo.xml -r .
 ```
   
 ##### Create Windows bootloader files
@@ -163,7 +163,7 @@ adb reboot recovery
 ```
 
 ##### Push the UEFI to your phone
-> Drag and drop the UEFI (xiaomi-raphael_NOSB.img) to your phone
+> Drag and drop the UEFI (Mu-ginkgo.img) to your phone
 
 ##### Back up your Android boot image
 Use the TWRP backup feature to backup your Android boot image. Name this backup "Android"
