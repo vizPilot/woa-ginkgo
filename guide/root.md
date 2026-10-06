@@ -1,7 +1,7 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/raphael.png" width="350" alt="Windows 11 Running On raphael">
+<img align="right" src="https://raw.githubusercontent.com/vizPilot/ginkgo/main/media/Xiaomi-Redmi-Note-8T.png" width="350" alt="Windows 11 Running On ginkgo">
 
 
-# Running Windows on the Redmi K20 Pro / Mi 9T Pro
+# Running Windows on the Xiaomi Redmi Note 8/8T
 
 ## Root guide
 
@@ -10,7 +10,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [TWRP](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img)
+- [TWRP](https://github.com/vizPilot/woa-ginkgo/releases/download/ginkgo-partitioning/twrp.img) (should already be installed)
 
 ##### Boot TWRP
 > If your recovery has been replaced back to stock, flash it again in fastboot with:
