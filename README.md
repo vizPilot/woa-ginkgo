@@ -1,4 +1,4 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/raphael.png" width="350" alt="Windows 11 running on ginkgo">
+<img align="right" src="https://raw.githubusercontent.com/vizPilot/woa-ginkgo/main/media/Xiaomi-Redmi-Note-8T.png" width="350" alt="Windows 11 running on ginkgo">
 
 
 # Running Windows on the Xiaomi Redmi Note 8/8T
@@ -25,13 +25,9 @@ This project is in an early stage, all the files here have been contributed by o
 
 ## Miscellaneous
 
-- [Dualboot setup](guide/dualboot.md)
-
 - [Optional post-install stuff](guide/postinstall.md)
 
 - [Reinstall instructions](guide/reinstall.md)
-
-- [Uninstall instructions](guide/uninstall.md)
 
 ## Contributors
 
