@@ -1,18 +1,18 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/raphael.png" width="350" alt="Windows 11 Running On raphael">
+<img align="right" src="https://raw.githubusercontent.com/vizPilot/woa-ginkgo/main/media/Xiaomi-Redmi-Note-8T.png" width="350" alt="Windows 11 Running On raphael">
 
 
-# Running Windows on the Redmi K20 Pro / Mi 9T Pro
+# Running Windows on the Xiaomi Redmi Note 8/8T
 
 ## Reinstall guide
 > [!NOTE]
 > This guide is used whenever you want to update or change your windows and / or driver installation.
 
 ### Prerequisites
-- [TWRP](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/twrp.img) (should already be installed)
-- [Drivers](https://github.com/graphiks/woa-raphael/releases/download/raphael-drivers/raphael-drivers.zip) |
-  [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/tag/v1.9.0.0) 
-- [UEFI image](https://github.com/graphiks/woa-raphael/releases/download/raphael-uefi/xiaomi-raphael.img)
-- [Msc script](https://github.com/graphiks/woa-raphael/releases/download/raphael-partitioning/msc.sh)
+- [TWRP](https://github.com/vizPilot/woa-ginkgo/releases/download/ginkgo-partitioning/twrp.img) (should already be installed)
+- [UEFI image](https://github.com/vizPilot/woa-ginkgo/releases/download/ginkgo-uefi/Mu-ginkgo.img)
+- [Drivers](https://github.com/woa-ginkllow/ginkgo-woa/releases/tag/1.0) (private for now)
+- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/tag/v1.9.0.0) 
+- [Msc script](https://github.com/vizPilot/woa-ginkgo/releases/download/ginkgo-partitioning/msc.sh)
 
 ## Reinstalling Windows
 > [!IMPORTANT]
@@ -58,7 +58,7 @@ sel dis $
 ```cmd
 lis par
 ```
-> This will print out all of the partitions in the selected disk. Check if they match up with your device and replace "$" with the number of the ESP partition (usually 30 or 31)
+> This will print out all of the partitions in the selected disk. Check if they match up with your device and replace "$" with the number of the ESP partition (usually 88)
 ```cmd
 sel par $
 ```
@@ -76,7 +76,7 @@ assign letter y
 ```
 
 ##### Selecting the Windows partitiom
-> Replace "$" in the command below with the number of the Windows partition, usually 31 or 32. If you don't know the number, run "lis par" again
+> Replace "$" in the command below with the number of the Windows partition, usually 89. If you don't know the number, run "lis par" again
 ```cmd
 sel par $
 ```
@@ -207,5 +207,4 @@ After windows finishes booting, you may notice thay USB does not work. To fix th
 
 After doing this, press the restart button and force boot to TWRP with the button combination after the screen shuts off.
 
-
-## [Next step: Setting up dualboot](/guide/dualboot.md)
+and that's all
