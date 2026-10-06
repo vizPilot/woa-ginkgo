@@ -1,5 +1,4 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/Xiaomi-Redmi-Note-8T.png" width="350" alt="Windows 11 Running On ginkgo">
-
+<img align="right" src="https://raw.githubusercontent.com/vizPilot/woa-ginkgo/main/media/Xiaomi-Redmi-Note-8T.png" width="350" alt="Windows 11 Running On ginkgo">
 
 # Running Windows on the Xiaomi Redmi Note 8/8T
 
