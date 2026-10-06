@@ -15,7 +15,7 @@
 
 ### Notes
 > [!WARNING]  
-> If you ever delete any partitions via diskpart, Windows will send a UFS command which would erase the entire UFS storage!
+> If you ever delete any partitions via diskpart, Windows will send a eMMC command which would erase the entire eMMC storage i think!
 > 
 > All your data will be erased! Backup now if needed.
 > 
