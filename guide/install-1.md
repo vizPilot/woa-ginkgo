@@ -1,6 +1,5 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/media/raphael.png" width="350" alt="Windows 11 running on ginkgo">
+<img align="right" src="https://raw.githubusercontent.com/vizPilot/woa-ginkgo/main/media/Xiaomi-Redmi-Note-8T.png" width="350" alt="Windows 11 running on ginkgo">
 
-h 2
 # Running Windows on the Xiaomi Redmi Note 8/8T
 
 ## Partitioning your device
