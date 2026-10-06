@@ -197,5 +197,4 @@ Your device will now reboot. Continue setup as normal. Make sure to press the "I
 
 It is recommened to also read the [post install guide](postinstall.md).
 
-
-## [Next step: Setting up dualboot](/guide/dualboot.md)
+and that's all
