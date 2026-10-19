@@ -120,6 +120,9 @@ bcdedit /store BCD /set "{default}" nointegritychecks on
 ```cmd
 bcdedit /store BCD /set "{default}" recoveryenabled no
 ```
+```cmd
+bcdedit /store BCD /set "{default}" bootstatuspolicy IgnoreAllFailures
+```
 
 ## Unassign disk letters
 > So that they don't stay there after disconnecting the device
