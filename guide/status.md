@@ -20,7 +20,7 @@ The project is in development. Expect some driver updates in the near future.
 - [ ] Charging
 - [x] Display
 - [ ] GPU
-- [ ] Touchscreen 
+- [x] Touchscreen 
 - [x] eMMC
 - [x] USB
 - [ ] Wi-Fi
