@@ -10,8 +10,7 @@
 ### Prerequisites
 - [TWRP](https://github.com/vizPilot/woa-ginkgo/releases/download/ginkgo-partitioning/twrp.img) (should already be installed)
 - [UEFI image](https://github.com/vizPilot/woa-ginkgo/releases/download/ginkgo-uefi/Mu-ginkgo.img)
-- [Drivers](https://github.com/woa-ginkllow/ginkgo-woa/releases/tag/1.0) (private for now)
-- [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases/tag/v1.9.0.0) 
+- [Drivers](https://github.com/woa-ginkllow/ginkgo-woa/releases/tag/1.0)
 - [Msc script](https://github.com/vizPilot/woa-ginkgo/releases/download/ginkgo-partitioning/msc.sh)
 
 ## Reinstalling Windows
@@ -108,11 +107,9 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
 
 ##### Installing Drivers
-> Put the right driverupdater.exe for your machine in the path where your command window is currently opened. For example if you are in C:\platform-tools, put the driverupdater there.
-
-> Replace `path\to` with the actual location of the drivers folder
+> Extract the drivers folder from the archive, then run the following command, replacing `path\to\drivers` with the actual path of the drivers folder
 ```cmd
-DriverUpdater.exe -p X: -d path\to\raphael-Drivers-main\definitions\Desktop\ARM64\Internal\raphael.txt -r .
+dism /image:X:\ /add-driver /driver:path\to\drivers /recurse
 ```
 
 ##### Create Windows bootloader files
