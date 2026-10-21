@@ -92,10 +92,9 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 ```
 
 ##### Installing Drivers
-
-
+> Extract the Drivers folder from the archive, then run the following command, replacing `path\to\drivers` with the actual path of the drivers folder
 ```cmd
-DriverUpdater.exe -p X: -d .\definitions\Desktop\ARM64\Internal\ginkgo.xml -r .
+dism /image:X:\ /add-driver /driver:path\to\drivers /recurse
 ```
   
 ##### Create Windows bootloader files
