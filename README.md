@@ -41,4 +41,4 @@ This project is in an early stage, all the files here have been contributed by o
 [<img alt="MollySophia" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20746884?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/MollySophia)
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
 [<img alt="viZPilot" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/66806243?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/vizPilot)
-[<img alt="Project Silicium" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/171448307?s=200&v=4&fit=cover&mask=circle&maxage=7d" />](https://github.com/Project-Silicium)
+[<img alt="Project Silicium" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/171448307?s=200&v=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Project-Silicium)
