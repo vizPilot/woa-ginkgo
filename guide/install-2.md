@@ -8,7 +8,7 @@
 
 - [Windows on ARM image](https://worproject.com/esd)
 - [UEFI image](https://github.com/vizPilot/woa-ginkgo/releases/download/ginkgo-uefi/Mu-ginkgo.img)
-- [Drivers](https://github.com/woa-ginkllow/ginkgo-woa/releases/tag/1.0) (private for now)
+- [Drivers](https://github.com/woa-ginkllow/ginkgo-woa/releases/tag/1.0)
 - [Msc script](https://github.com/vizPilot/woa-ginkgo/releases/download/ginkgo-partitioning/msc.sh)
 - [TWRP](https://github.com/vizPilot/woa-ginkgo/releases/download/ginkgo-partitioning/twrp.img) (should already be installed)
 
