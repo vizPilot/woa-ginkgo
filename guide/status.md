@@ -11,7 +11,9 @@ The project is in development. Expect some driver updates in the near future.
 
 #### Features
 
-- [ ] Audio 
+- [x] Audio
+- [ ] Microphone
+- [ ] Jack 3.5 Audio
 - [ ] Battery status
 - [ ] Bluetooth
 - [ ] Brightness 
