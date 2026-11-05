@@ -14,7 +14,7 @@ The project is in development. Expect some driver updates in the near future.
 - [x] Audio
 - [ ] Microphone
 - [ ] Jack 3.5 Audio
-- [ ] Battery status
+- [x] Battery status
 - [ ] Bluetooth
 - [ ] Brightness 
 - [ ] Camera
